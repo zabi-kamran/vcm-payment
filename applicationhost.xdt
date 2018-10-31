@@ -1,0 +1,12 @@
+<?xml version=“1.0“?> 
+<configuration xmlns:xdt=“http://schemas.microsoft.com/XML-Document-Transform“> 
+  <system.webServer> 
+    <fastCgi>
+      <application fullPath=“D:\Program Files (x86)\PHP\v5.x\php-cgi.exe“ xdt:Locator=“Match(fullPath)“>
+        <environmentVariables>
+          <environmentVariable name=“PHPRC“ xdt:Locator=“Match(name)“ value=“d:\home\site\php71.ini“ xdt:Transform=“SetAttributes(value)“ />
+        </environmentVariables>
+      </application>
+    </fastCgi>
+  </system.webServer> 
+</configuration>
