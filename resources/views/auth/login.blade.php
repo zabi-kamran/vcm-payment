@@ -20,7 +20,7 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">{{ csrf_field() }}
                         <div class="panel panel-body login-form">
                             <div class="text-center">
-                                <h5 class="content-group-lg">Login to your account <small class="display-block">Enter your credentials</small></h5>
+                                <h5 class="content-group-lg">Login To Your Account <small class="display-block">Enter your credentials</small></h5>
                             </div>
 
                             <div class="form-group has-feedback has-feedback-left">

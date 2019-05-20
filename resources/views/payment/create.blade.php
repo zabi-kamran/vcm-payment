@@ -8,10 +8,10 @@
                    <div class="page-header">
                     <div class="page-header-content">
                         <div class="page-title">
-                            <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Add New Record</span></h4>
+                            <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Add New VCM or VWS Record</span></h4>
 
                         <div class="heading-elements">
-                           <a href="{{ route('payment.index') }}" class="btn bg-brown btn-labeled heading-btn"><b><i class="icon-arrow-left15"></i></b> Back</a>
+                           <a href="{{ route('payment.index') }}" class="btn bg-brown btn-labeled heading-btn"><b><i class="icon-arrow-left15"></i></b>Back</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                         <div class="panel-heading">
                             <h6 class="panel-title">Fill the Form</h6>
                             <div class="heading-elements">
-                              
+
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@
                                             {!! Form::select('ward',[''=>'Select Ward Name'], old('ward'), ['class'=>'form-control required','required','id'=>'ward']) !!}
                                             <div class="text-danger">{{ $errors->first('ward') }}</div>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                                <div class="row">
                                  <div class="form-group">
@@ -225,7 +225,7 @@
                 <!-- /content area -->
 
             </div>
-            
+
             <!-- /main content -->
 @push('footerscript')
 
@@ -257,7 +257,7 @@
                 });
             }
         });
-    } 
+    }
     function lgaby(){
         var lga_id=$("#lga").val();
         $.ajax({
